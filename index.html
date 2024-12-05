@@ -94,6 +94,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="assets/contact-form/index.html" target="">Contact</a>
                     </li>
+                    <div>
+      <p>Views: <span id="views">Loading...</span></p>
+    </div>
                 </ul>
 
             </div>
@@ -813,6 +816,17 @@
         });
     });
 </script>
+             <!-- include siteviews script tags  -->
+    <script
+      src="https://unpkg.com/siteviews@1.0.7/package.js"
+      type="application/javascript"
+      scriptfor="siteviews"
+      project-name="my-project"
+      output-element-id="views"
+      refresh="10"
+      user-info
+      toast
+    ></script>
 </body>
 
 </html>
