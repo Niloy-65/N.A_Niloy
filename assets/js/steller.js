@@ -60,4 +60,10 @@ function openPopup(element) {
 function closePopup() {
     var popup = document.getElementById("imagePopup");
     popup.style.display = "none";
+
+	
 }
+document.getElementById('menuToggle').addEventListener('click', function () {
+  const menu = document.getElementById('menu');
+  menu.classList.toggle('hidden');
+});
